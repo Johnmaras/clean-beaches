@@ -1,3 +1,21 @@
+/*!
+ * Clean Beaches Map — Χάρτης Καθαριότητας Παραλιών Αττικής
+ * Copyright (C) 2026 Johnmaras
+ *
+ * This program is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+ * for more details: <https://www.gnu.org/licenses/>.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ * Source: https://github.com/Johnmaras/clean-beaches
+ */
+
 :root{
   --bg:#0d1b2a; --panel:#13263b; --line:#20405f;
   --txt:#e8f1f8; --muted:#8fa9c0;
@@ -65,6 +83,9 @@ h1{margin:0;font-size:20px;letter-spacing:.3px}
 
 footer{padding:12px 18px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);line-height:1.55}
 footer p{margin:0 0 4px}
+footer .lic{margin-top:7px;padding-top:7px;border-top:1px solid var(--line)}
+footer a{color:var(--accent);text-decoration:none}
+footer a:hover{text-decoration:underline}
 
 #map{flex:1;height:100%}
 .leaflet-popup-content-wrapper{background:var(--panel);color:var(--txt);border-radius:10px}

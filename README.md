@@ -63,4 +63,47 @@ python -m http.server 8099
 
 ## Άδεια / License
 
-Δείτε το [LICENSE](LICENSE). Τα δεδομένα ανήκουν στο ΠΑΚΟΕ ([pakoe.gr](https://www.pakoe.gr)).
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+Copyright (C) 2026 Johnmaras
+
+Το πρόγραμμα αυτό είναι ελεύθερο λογισμικό: μπορείτε να το αναδιανείμετε ή/και να το
+τροποποιήσετε υπό τους όρους της **GNU Affero General Public License**, όπως δημοσιεύεται
+από το Free Software Foundation, είτε της έκδοσης 3, είτε (κατ' επιλογή σας) οποιασδήποτε
+μεταγενέστερης έκδοσης.
+
+Διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά **ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ** — χωρίς καν
+τη σιωπηρή εγγύηση ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ή ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.
+Δείτε τη [GNU Affero General Public License](LICENSE) για περισσότερες λεπτομέρειες.
+
+---
+
+This program is free software: you can redistribute it and/or modify it under the terms of
+the **GNU Affero General Public License** as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but **WITHOUT ANY WARRANTY**;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the [GNU Affero General Public License](LICENSE) for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this
+program. If not, see <https://www.gnu.org/licenses/>.
+
+### Σημείωση AGPL §13 / Network use
+
+Η AGPL απαιτεί ότι, αν τρέξετε τροποποιημένη έκδοση αυτού του λογισμικού σε **διακομιστή**
+και επιτρέψετε σε χρήστες να αλληλεπιδράσουν μαζί του μέσω δικτύου, πρέπει να τους
+προσφέρετε πρόσβαση στον **πηγαίο κώδικα** της τροποποιημένης έκδοσης. Γι' αυτό η σελίδα
+περιλαμβάνει σύνδεσμο προς το αποθετήριο.
+
+If you run a modified version of this software on a server and let users interact with it
+over a network, you must offer those users access to the modified version's source code.
+The page therefore links back to this repository.
+
+### Δεδομένα / Data
+
+Τα **δεδομένα** των μετρήσεων ανήκουν στο **ΠΑΚΟΕ** – Πανελλήνιο Κέντρο Οικολογικών Ερευνών
+([pakoe.gr](https://www.pakoe.gr)) και παρατίθενται με αναφορά στην πηγή· δεν καλύπτονται
+από την άδεια AGPL-3.0, η οποία αφορά τον κώδικα.
+
+Χάρτης: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors (ODbL).

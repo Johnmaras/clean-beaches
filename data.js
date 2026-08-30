@@ -1,3 +1,21 @@
+/*!
+ * Clean Beaches Map — Χάρτης Καθαριότητας Παραλιών Αττικής
+ * Copyright (C) 2026 Johnmaras
+ *
+ * This program is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+ * for more details: <https://www.gnu.org/licenses/>.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ * Source: https://github.com/Johnmaras/clean-beaches
+ */
+
 // Δεδομένα: ΠΑΚΟΕ – Πανελλήνιο Κέντρο Οικολογικών Ερευνών, δειγματοληψία 15/06/2026
 // Πηγές: (1) Παραλίες Πειραιά–Αναβύσσου  (2) Ακτές Ανατολικής Αττικής
 // Όρια Οδηγίας 2006/7/ΕΚ: E. coli 250 cfu/100ml, Εντερόκοκκοι 100 cfu/100ml
