@@ -1,0 +1,15 @@
+# Python (uv-managed workspace venv)
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+
+# Scratch / build artifacts
+shot*.png
+t*.html
+extract*.py
+extracted.json
+
+# OS
+Thumbs.db
+.DS_Store

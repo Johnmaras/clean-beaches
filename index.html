@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Χάρτης Καθαριότητας Παραλιών – Αττική 2026</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <header>
+      <h1>Καθαριότητα Παραλιών</h1>
+      <p class="sub">Αττική &mdash; Πειραιάς, Σαρωνικός &amp; Ανατολική Αττική<br>Δειγματοληψία <strong id="date"></strong></p>
+    </header>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="filters">
+      <button class="f active" data-f="all">Όλες</button>
+      <button class="f" data-f="K">Κατάλληλες</button>
+      <button class="f" data-f="A">Ακατάλληλες</button>
+    </div>
+    <div class="filters regions" id="regions"></div>
+    <input id="search" type="search" placeholder="Αναζήτηση παραλίας ή περιοχής…">
+    <label class="toggle"><input type="checkbox" id="bfToggle"> <span>⚑ Εμφάνιση ακτών με Γαλάζια Σημαία</span></label>
+
+    <ul id="list"></ul>
+
+    <footer>
+      <p><strong>Πηγή:</strong> ΠΑΚΟΕ – Πανελλήνιο Κέντρο Οικολογικών Ερευνών.</p>
+      <p>Όρια Οδηγίας 2006/7/ΕΚ: <em>E. coli</em> 250 cfu/100ml &middot; Εντερόκοκκοι 100 cfu/100ml.</p>
+    </footer>
+  </aside>
+  <main id="map"></main>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
